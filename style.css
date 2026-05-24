@@ -615,15 +615,30 @@ footer {
   #hero {
     flex-direction: column;
     text-align: center;
-    gap: 2.5rem;
+    gap: 2rem;
     padding-top: 5rem;
   }
 
   .hero-cta { justify-content: center; }
-  .hero-visual { width: 100%; max-width: 100%; }
 
-  .about-grid { grid-template-columns: 1fr; }
-  .about-stats { justify-content: center; }
+  .hero-visual {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .code-card {
+    font-size: 0.75rem;
+  }
+
+  .code-card pre {
+    padding: 1rem;
+    font-size: 0.78rem;
+    line-height: 1.7;
+    overflow-x: auto;
+    white-space: pre;
+  }
+
+  .about-grid { grid-template-columns: 1fr; }  .about-stats { justify-content: center; }
 
   .nav-links {
     display: none;
@@ -650,6 +665,13 @@ footer {
   section { padding: 4rem 1.25rem; }
   .contact-cards { flex-direction: column; align-items: center; }
   .contact-card { width: 100%; max-width: 320px; }
+
+  .hero-visual { display: none; }
+
+  #hero {
+    min-height: 90vh;
+    padding-bottom: 3rem;
+  }
 }
 
 /* ===== ANIMATIONS ===== */

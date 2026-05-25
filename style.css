@@ -666,8 +666,6 @@ footer {
   .contact-cards { flex-direction: column; align-items: center; }
   .contact-card { width: 100%; max-width: 320px; }
 
-  .hero-visual { display: none; }
-
   #hero {
     min-height: 90vh;
     padding-bottom: 3rem;
